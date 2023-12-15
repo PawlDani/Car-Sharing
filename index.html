@@ -3,120 +3,207 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,700;6..12,800;6..12,900&family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Car Sharing</title>
   </head>
+
   <body>
-    <header class="site-header">
-      <nav class="main-nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
-          <li class="nav-item"><a href="#blog" class="nav-link">BLOG</a></li>
-          <li class="nav-item">
-            <a href="#service" class="nav-link">SERVICE</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <main>
+      <section class="opening">
+        <header class="header">
+          <div class="header__container container">
+            <a href="/" class="page-logo">
+              <img src="images/Icon Logo Normal.svg" alt="Car Sharing" />
+              <span>Car</span> <span class="sharing-style">Sharing</span>
+            </a>
+            <nav>
+              <ul class="header__nav">
+                <li class="nav__element">
+                  <a href="#home" class="nav__link">HOME</a>
+                </li>
+                <li class="nav__element">
+                  <a href="#blog" class="nav__link">BLOG</a>
+                </li>
+                <li class="nav__element">
+                  <a href="#service" class="nav__link">SERVICE</a>
+                </li>
+                <li class="nav__element">
+                  <a href="#contact" class="nav__link">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
 
-    <main class="main-content">
-      <section class="home-section">
-        <h1 class="section-title">CAR SHARING</h1>
-        <p class="section-description">Your description here...</p>
-        <a href="link-to-share-a-car" class="button-link"
-          ><button class="action-button">SHARE A CAR</button></a
-        >
-        <a href="link-to-key-features" class="button-link"
-          ><button class="action-button">KEY FEATURES</button></a
-        >
+        <!--Opening-->
+
+        <div class="container">
+          <div class="opening__content">
+            <h1 class="opening__header">Car Sharing</h1>
+            <p class="opening__heading">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="btn btn--primary">Share a car</a>
+            <a href="#" class="btn btn--secondary">Key features</a>
+          </div>
+        </div>
       </section>
 
-      <section class="blog-section">
-        <h2 class="section-title">BLOG</h2>
-        <article class="blog-article">
-          <h3 class="article-title">Article Title</h3>
-          <p class="article-description">Article description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
-        <article class="blog-article">
-          <h3 class="article-title">Article Title</h3>
-          <p class="article-description">Article description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
-        <article class="blog-article">
-          <h3 class="article-title">Article Title</h3>
-          <p class="article-description">Article description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
+      <!--Blog Section-->
+
+      <section class="blog">
+        <div class="container">
+          <h2 class="blog__title">blog</h2>
+
+          <div class="blog__container">
+            <div class="blog__single">
+              <div class="blog__page">
+                <img src="images/photo1.png" alt="gear" class="blog__img" />
+              </div>
+              <div class="blog__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="blog__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="blog-btn">Read More</a>
+            </div>
+
+            <div class="blog__single">
+              <div class="blog__page">
+                <img src="images/photo2.png" alt="car" class="blog__img" />
+              </div>
+              <div class="blog__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="blog__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="blog-btn">Read More</a>
+            </div>
+
+            <div class="blog__single">
+              <div class="blog__page">
+                <img src="images/photo3.png" alt="engine" class="blog__img" />
+              </div>
+              <div class="blog__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="blog__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="blog-btn">Read More</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="service-section">
-        <h2 class="section-title">SERVICE</h2>
-        <article class="service-article">
-          <h3 class="article-title">Service Title</h3>
-          <p class="article-description">Service description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
-        <article class="service-article">
-          <h3 class="article-title">Service Title</h3>
-          <p class="article-description">Service description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
-        <article class="service-article">
-          <h3 class="article-title">Service Title</h3>
-          <p class="article-description">Service description...</p>
-          <button class="read-more-button">READ MORE</button>
-        </article>
+      <!--Service Section-->
+
+      <section class="service">
+        <div class="container">
+          <h2 class="service__title">service</h2>
+          <div class="service__container">
+            <div class="service__single">
+              <div class="service__page">
+                <img src="images/mini1.png" alt="gear" class="service__image" />
+              </div>
+              <div class="service__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="service-btn">Read More</a>
+            </div>
+
+            <div class="service__single">
+              <div class="service__page">
+                <img
+                  src="images/mini2.png"
+                  alt="gears"
+                  class="service__image"
+                />
+              </div>
+              <div class="service__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="service-btn">Read More</a>
+            </div>
+
+            <div class="service__single">
+              <div class="service__page">
+                <img
+                  src="images/mini3.png"
+                  alt="steering"
+                  class="service__image"
+                />
+              </div>
+              <div class="service__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="service-btn">Read More</a>
+            </div>
+
+            <div class="service__single">
+              <div class="service__page">
+                <img
+                  src="images/mini4.png"
+                  alt="knobs"
+                  class="service__image"
+                />
+              </div>
+              <div class="service__titles">LOREM IPSUM SIT DOLOR</div>
+              <div class="service__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <a href="#" class="service-btn">Read More</a>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="contact-section">
-        <h2 class="section-title">CONTACT</h2>
-        <form class="contact-form">
-          <input
-            type="text"
-            class="form-input"
-            placeholder="Type your name"
-            required
-          />
-          <input
-            type="email"
-            class="form-input"
-            placeholder="Type your e-mail"
-            required
-          />
-          <textarea
-            class="form-textarea"
-            placeholder="Type your message"
-            required
-          ></textarea>
-          <button type="submit" class="submit-button">SEND</button>
-        </form>
+      <!--Contact Section-->
+
+      <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="container container--contact">
+          <img src="images/Form%20Photo.png" alt="form_photo" />
+          <form class="contact-form" action="">
+            <input type="text" placeholder="Type your name" />
+            <input type="email" placeholder="Type your name" />
+            <textarea placeholder="Type your message"></textarea>
+            <label class="checkbox">
+              <input type="checkbox" />
+              <span></span>
+              I hereby give consent for my personal data included in my
+              application to be processed for the purposes of the recruitment
+              process under the European Parliament's and Council of the
+              European Union Regulation on the Protection of Natural Persons as
+              of 27 April 2016, with regard to the processing of personal data
+              and on the free movement of such data, and repealing Directive
+              95/46/EC (Data Protection Directive)
+            </label>
+            <button
+              type="submit"
+              class="btn btn--white btn--small btn--contact"
+            >
+              Send
+            </button>
+          </form>
+        </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <nav class="footer-nav">
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">HOME PAGE</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a href="#gallery" class="nav-link">GALLERY</a>
-          </li>
-          <li class="nav-item">
-            <a href="#share" class="nav-link">SHARE REGULATION</a>
-          </li>
-        </ul>
-      </nav>
-      <p class="footer-links">
-        Price | Our Fleet | Our Clients | Share Regulation | Contact
-      </p>
-      <p class="copyright">&copy; Current Year Car Sharing</p>
-    </footer>
   </body>
 </html>
